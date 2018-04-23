@@ -1,4 +1,4 @@
-FROM bitnami/minideb-extras:jessie-r24
+FROM bitnami/minideb-extras:jessie-r28
 LABEL maintainer "Bitnami <containers@bitnami.com>"
 
 # Install required system packages and dependencies
@@ -7,9 +7,8 @@ RUN bitnami-pkg install node-6.14.1-0 --checksum 2746a8deacaed0271fceaa9484ab396
 RUN bitnami-pkg unpack canary-1.0.13-0 --checksum 83fe73ee09be26127c34d8b611c714ff4c667aabda2819ec21c516622b73a00f
 
 COPY rootfs /
-
 ENV BITNAMI_APP_NAME="canary" \
-    BITNAMI_IMAGE_VERSION="1.0.13-r3" \
+    BITNAMI_IMAGE_VERSION="1.0.13-r4" \
     CANARY_HELLONAME="world" \
     PATH="/opt/bitnami/node/bin:/opt/bitnami/canary/bin:$PATH"
 
