@@ -16,7 +16,7 @@ $ docker-compose up
 > NOTE: Debian 8 images have been deprecated in favor of Debian 9 images. Bitnami will not longer publish new Docker images based on Debian 8.
 
 
-* [`1-debian-9`, `1.0.14-debian-9-r0`, `1`, `1.0.14`, `1.0.14-r0`, `latest` (1/Dockerfile)](https://github.com/bitnami/bitnami-docker-canary/blob/1.0.14-debian-9-r0/1/Dockerfile)
+* [`1-debian-9`, `1.0.14-debian-9-r1`, `1`, `1.0.14`, `1.0.14-r1`, `latest` (1/Dockerfile)](https://github.com/bitnami/bitnami-docker-canary/blob/1.0.14-debian-9-r1/1/Dockerfile)
 
 Subscribe to project updates by watching the [bitnami/canary GitHub repo](https://github.com/bitnami/bitnami-docker-canary).
 
@@ -25,7 +25,7 @@ Subscribe to project updates by watching the [bitnami/canary GitHub repo](https:
 > NOTE: Debian 8 images have been deprecated in favor of Debian 9 images. Bitnami will not longer publish new Docker images based on Debian 8.
 
 
-* [`1-debian-9`, `1.0.14-debian-9-r0`, `1`, `1.0.14`, `1.0.14-r0`, `latest` (1/Dockerfile)](https://github.com/bitnami/bitnami-docker-canary/blob/1.0.14-debian-9-r0/1/Dockerfile)
+* [`1-debian-9`, `1.0.14-debian-9-r1`, `1`, `1.0.14`, `1.0.14-r1`, `latest` (1/Dockerfile)](https://github.com/bitnami/bitnami-docker-canary/blob/1.0.14-debian-9-r1/1/Dockerfile)
 
 Subscribe to project updates by watching the [bitnami/canary GitHub repo](https://github.com/bitnami/bitnami-docker-canary).
 
