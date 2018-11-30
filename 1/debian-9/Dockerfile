@@ -8,7 +8,7 @@ RUN bitnami-pkg unpack canary-1.0.15-1 --checksum 7b9b74ddd08936dd17d400c348c983
 
 COPY rootfs /
 ENV BITNAMI_APP_NAME="canary" \
-    BITNAMI_IMAGE_VERSION="1.0.15-debian-9-r38" \
+    BITNAMI_IMAGE_VERSION="1.0.15-debian-9-r39" \
     CANARY_HELLONAME="world" \
     PATH="/opt/bitnami/node/bin:/opt/bitnami/canary/bin:$PATH"
 
