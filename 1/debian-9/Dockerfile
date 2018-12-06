@@ -1,4 +1,4 @@
-FROM bitnami/minideb-extras:stretch-r213
+FROM bitnami/minideb-extras:stretch-r214
 LABEL maintainer "Bitnami <containers@bitnami.com>"
 
 # Install required system packages and dependencies
@@ -8,7 +8,7 @@ RUN bitnami-pkg unpack canary-1.0.15-1 --checksum 7b9b74ddd08936dd17d400c348c983
 
 COPY rootfs /
 ENV BITNAMI_APP_NAME="canary" \
-    BITNAMI_IMAGE_VERSION="1.0.15-debian-9-r43" \
+    BITNAMI_IMAGE_VERSION="1.0.15-debian-9-r44" \
     CANARY_HELLONAME="world" \
     PATH="/opt/bitnami/node/bin:/opt/bitnami/canary/bin:$PATH"
 
