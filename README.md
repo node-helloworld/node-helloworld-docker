@@ -18,7 +18,7 @@ $ docker-compose up
 Learn more about the Bitnami tagging policy and the difference between rolling tags and immutable tags [in our documentation page](https://docs.bitnami.com/containers/how-to/understand-rolling-tags-containers/).
 
 
-* [`1-debian-9`, `1.0.15-debian-9-r73`, `1`, `1.0.15`, `1.0.15-r73`, `latest` (1/debian-9/Dockerfile)](https://github.com/bitnami/bitnami-docker-canary/blob/1.0.15-debian-9-r73/1/debian-9/Dockerfile)
+* [`1-debian-9`, `1.0.15-debian-9-r74`, `1`, `1.0.15`, `1.0.15-r74`, `latest` (1/debian-9/Dockerfile)](https://github.com/bitnami/bitnami-docker-canary/blob/1.0.15-debian-9-r74/1/debian-9/Dockerfile)
 
 Subscribe to project updates by watching the [bitnami/canary GitHub repo](https://github.com/bitnami/bitnami-docker-canary).
 
