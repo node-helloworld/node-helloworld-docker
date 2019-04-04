@@ -1,14 +1,14 @@
-FROM bitnami/minideb-extras:stretch-r332
+FROM bitnami/minideb-extras:stretch-r333
 LABEL maintainer "Bitnami <containers@bitnami.com>"
 
 # Install required system packages and dependencies
 RUN install_packages ghostscript imagemagick libbz2-1.0 libc6 libgcc1 libncurses5 libreadline7 libsqlite3-0 libssl1.1 libstdc++6 libtinfo5 net-tools zlib1g
-RUN bitnami-pkg install node-6.17.0-1 --checksum 26cc5808f1c46f29220b8c5e9b8f41599ec82867bcc5cf00e03579da2929100a
+RUN bitnami-pkg install node-6.17.1-0 --checksum 87b062cd46f768bce90aae91f2fecd9dd894311e6f57d018dc0e0ad36cb9bbc8
 RUN bitnami-pkg unpack canary-1.0.15-20 --checksum ac410d24d20de02b3f0b8961faffbb268a062451a111bad761fa50a8fe3cc4ec
 
 COPY rootfs /
 ENV BITNAMI_APP_NAME="canary" \
-    BITNAMI_IMAGE_VERSION="1.0.15-debian-9-r162" \
+    BITNAMI_IMAGE_VERSION="1.0.15-debian-9-r163" \
     CANARY_HELLONAME="world" \
     PATH="/opt/bitnami/node/bin:/opt/bitnami/canary/bin:$PATH"
 
