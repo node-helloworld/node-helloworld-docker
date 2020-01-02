@@ -18,7 +18,7 @@ $ docker-compose up
 Learn more about the Bitnami tagging policy and the difference between rolling tags and immutable tags [in our documentation page](https://docs.bitnami.com/containers/how-to/understand-rolling-tags-containers/).
 
 
-* [`1-debian-9`, `1.1.1-debian-9-r16`, `1`, `1.1.1`, `1.1.1-r16`, `latest` (1/debian-9/Dockerfile)](https://github.com/bitnami/bitnami-docker-canary/blob/1.1.1-debian-9-r16/1/debian-9/Dockerfile)
+* [`1-debian-9`, `1.1.1-debian-9-r17`, `1`, `1.1.1`, `1.1.1-r17`, `latest` (1/debian-9/Dockerfile)](https://github.com/bitnami/bitnami-docker-canary/blob/1.1.1-debian-9-r17/1/debian-9/Dockerfile)
 
 Subscribe to project updates by watching the [bitnami/canary GitHub repo](https://github.com/bitnami/bitnami-docker-canary).
 
@@ -28,7 +28,7 @@ To run this application you need Docker Engine 1.10.0. Docker Compose is recomen
 
 # License
 
-Copyright (c) 2019 Bitnami
+Copyright (c) 2020 Bitnami
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
