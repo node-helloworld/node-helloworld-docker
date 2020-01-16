@@ -28,7 +28,7 @@ RUN for server in "ha.pool.sks-keyservers.net" "hkp://p80.pool.sks-keyservers.ne
 
 COPY rootfs /
 ENV BITNAMI_APP_NAME="canary" \
-    BITNAMI_IMAGE_VERSION="1.1.1-debian-9-r27" \
+    BITNAMI_IMAGE_VERSION="1.1.1-debian-9-r28" \
     CANARY_HELLONAME="world"
 
 EXPOSE 8080
