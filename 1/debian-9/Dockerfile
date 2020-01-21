@@ -17,7 +17,7 @@ RUN /build/install-tini.sh
 
 COPY rootfs /
 ENV BITNAMI_APP_NAME="canary" \
-    BITNAMI_IMAGE_VERSION="1.1.1-debian-9-r31" \
+    BITNAMI_IMAGE_VERSION="1.1.1-debian-9-r32" \
     CANARY_HELLONAME="world"
 
 EXPOSE 8080
