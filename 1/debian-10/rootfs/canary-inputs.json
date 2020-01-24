@@ -1,0 +1,3 @@
+{
+  "helloname": "{{$global.env.CANARY_HELLONAME}}"
+}
