@@ -6,7 +6,7 @@ It is a minimal hello world application written in NodeJS used for testing purpo
 
 ## Docker Compose
 
-```bash
+```console
 $ curl -LO https://raw.githubusercontent.com/node-helloworld/node-helloworld-docker/master/docker-compose.yml
 $ docker-compose up
 ```
@@ -18,7 +18,7 @@ $ docker-compose up
 Learn more about the Bitnami tagging policy and the difference between rolling tags and immutable tags [in our documentation page](https://docs.bitnami.com/containers/how-to/understand-rolling-tags-containers/).
 
 
-* [`1-debian-10`, `1.1.1-debian-10-r70`, `1`, `1.1.1`, `latest` (1/debian-10/Dockerfile)](https://github.com/bitnami/bitnami-docker-canary/blob/1.1.1-debian-10-r70/1/debian-10/Dockerfile)
+* [`1-debian-10`, `1.1.1-debian-10-r71`, `1`, `1.1.1`, `latest` (1/debian-10/Dockerfile)](https://github.com/bitnami/bitnami-docker-canary/blob/1.1.1-debian-10-r71/1/debian-10/Dockerfile)
 
 Subscribe to project updates by watching the [bitnami/canary GitHub repo](https://github.com/bitnami/bitnami-docker-canary).
 
