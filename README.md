@@ -13,10 +13,10 @@ $ docker-compose up
 
 # Supported tags and respective `Dockerfile` links
 
-Learn more about the Bitnami tagging policy and the difference between rolling tags and immutable tags [in our documentation page](https://docs.bitnami.com/containers/how-to/understand-rolling-tags-containers/).
+Learn more about the Bitnami tagging policy and the difference between rolling tags and immutable tags [in our documentation page](https://docs.bitnami.com/tutorials/understand-rolling-tags-containers/).
 
 
-* [`1-debian-10`, `1.1.1-debian-10-r78`, `1`, `1.1.1`, `latest` (1/debian-10/Dockerfile)](https://github.com/bitnami/bitnami-docker-canary/blob/1.1.1-debian-10-r78/1/debian-10/Dockerfile)
+* [`1-debian-10`, `1.1.1-debian-10-r79`, `1`, `1.1.1`, `latest` (1/debian-10/Dockerfile)](https://github.com/bitnami/bitnami-docker-canary/blob/1.1.1-debian-10-r79/1/debian-10/Dockerfile)
 
 Subscribe to project updates by watching the [bitnami/canary GitHub repo](https://github.com/bitnami/bitnami-docker-canary).
 
