@@ -1,7 +1,7 @@
 FROM docker.io/bitnami/minideb:buster
 LABEL maintainer "Bitnami <containers@bitnami.com>"
 
-ENV PATH="/opt/bitnami/common/bin:/opt/bitnami/node/bin:/opt/bitnami/common/bin:/opt/bitnami/canary/bin:/opt/bitnami/nami/bin:$PATH"
+ENV PATH="/opt/bitnami/common/bin:/opt/bitnami/node/bin:/opt/bitnami/canary/bin:/opt/bitnami/nami/bin:$PATH"
 
 COPY prebuildfs /
 # Install required system packages and dependencies
@@ -17,7 +17,7 @@ RUN apt-get update && apt-get upgrade -y && \
 
 COPY rootfs /
 ENV BITNAMI_APP_NAME="canary" \
-    BITNAMI_IMAGE_VERSION="1.1.1-debian-10-r79" \
+    BITNAMI_IMAGE_VERSION="1.1.1-debian-10-r80" \
     CANARY_HELLONAME="world"
 
 EXPOSE 8080
