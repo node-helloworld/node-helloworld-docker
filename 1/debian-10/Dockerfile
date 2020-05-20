@@ -17,7 +17,7 @@ RUN apt-get update && apt-get upgrade -y && \
 
 COPY rootfs /
 ENV BITNAMI_APP_NAME="canary" \
-    BITNAMI_IMAGE_VERSION="1.1.1-debian-10-r104" \
+    BITNAMI_IMAGE_VERSION="1.1.1-debian-10-r105" \
     CANARY_HELLONAME="world" \
     OS_ARCH="amd64" \
     OS_FLAVOUR="debian-10" \
