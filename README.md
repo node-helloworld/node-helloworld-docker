@@ -2,7 +2,7 @@
 
 It is a minimal hello world application written in NodeJS used for testing purposes.
 
-# TL;DR;
+# TL;DR
 
 ## Docker Compose
 
@@ -16,7 +16,7 @@ $ docker-compose up
 Learn more about the Bitnami tagging policy and the difference between rolling tags and immutable tags [in our documentation page](https://docs.bitnami.com/tutorials/understand-rolling-tags-containers/).
 
 
-* [`1-debian-10`, `1.1.3-debian-10-r56`, `1`, `1.1.3`, `latest` (1/debian-10/Dockerfile)](https://github.com/bitnami/bitnami-docker-canary/blob/1.1.3-debian-10-r56/1/debian-10/Dockerfile)
+* [`1-debian-10`, `1.1.3-debian-10-r57`, `1`, `1.1.3`, `latest` (1/debian-10/Dockerfile)](https://github.com/bitnami/bitnami-docker-canary/blob/1.1.3-debian-10-r57/1/debian-10/Dockerfile)
 
 Subscribe to project updates by watching the [bitnami/canary GitHub repo](https://github.com/bitnami/bitnami-docker-canary).
 
