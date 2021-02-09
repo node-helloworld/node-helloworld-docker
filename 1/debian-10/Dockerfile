@@ -12,12 +12,10 @@ RUN bitnami-pkg install node-12.20.1-0 --checksum a3877a2368de27c799a770b1428307
 RUN bitnami-pkg install tini-0.19.0-1 --checksum 9b1f1c095944bac88a62c1b63f3bff1bb123aa7ccd371c908c0e5b41cec2528d
 RUN bitnami-pkg install gosu-1.12.0-2 --checksum 4d858ac600c38af8de454c27b7f65c0074ec3069880cb16d259a6e40a46bbc50
 RUN bitnami-pkg unpack canary-1.1.3-0 --checksum a341547947975c4cf65c41dc8d0bbacfcd41f116faf3086b55044cf8d6b7751c
-RUN apt-get update && apt-get upgrade -y && \
-    rm -r /var/lib/apt/lists /var/cache/apt/archives
 
 COPY rootfs /
 ENV BITNAMI_APP_NAME="canary" \
-    BITNAMI_IMAGE_VERSION="1.1.3-debian-10-r226" \
+    BITNAMI_IMAGE_VERSION="1.1.3-debian-10-r227" \
     CANARY_HELLONAME="world" \
     OS_ARCH="amd64" \
     OS_FLAVOUR="debian-10" \
