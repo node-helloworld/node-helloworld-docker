@@ -8,7 +8,7 @@ COPY prebuildfs /
 RUN install_packages ca-certificates curl gzip libbz2-1.0 libc6 libffi6 libgcc1 liblzma5 libncursesw6 libreadline7 libsqlite3-0 libssl1.1 libstdc++6 libtinfo6 net-tools procps sudo tar zlib1g
 RUN /build/bitnami-user.sh
 RUN /build/install-nami.sh
-RUN bitnami-pkg install python-3.8.12-1 --checksum db3c9f6e2c8be68a22d4fb3b6eadeea842790bb77bb9ff481456bb309e9dc941
+RUN bitnami-pkg install python-3.8.12-2 --checksum e00677f5209d9426daff2db54cf00e04c46718bbdbc0717aee07e6a727ef05ad
 RUN bitnami-pkg install node-14.17.6-0 --checksum 2c35e2baaa990e10d6cd5083530dbfa1f16075788eacbe4382d8b08abdbc8460
 RUN bitnami-pkg install tini-0.19.0-1 --checksum 9b1f1c095944bac88a62c1b63f3bff1bb123aa7ccd371c908c0e5b41cec2528d
 RUN bitnami-pkg install gosu-1.14.0-0 --checksum 3e6fc37ca073b10a73a804d39c2f0c028947a1a596382a4f8ebe43dfbaa3a25e
@@ -16,7 +16,7 @@ RUN bitnami-pkg unpack canary-1.1.3-0 --checksum a341547947975c4cf65c41dc8d0bbac
 
 COPY rootfs /
 ENV BITNAMI_APP_NAME="canary" \
-    BITNAMI_IMAGE_VERSION="1.1.3-debian-10-r434" \
+    BITNAMI_IMAGE_VERSION="1.1.3-debian-10-r435" \
     CANARY_HELLONAME="world" \
     OS_ARCH="amd64" \
     OS_FLAVOUR="debian-10" \
